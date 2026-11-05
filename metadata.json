@@ -1,0 +1,6 @@
+{
+  "name": "Somali Embassy Online Services Portal",
+  "description": "Official online consular and citizen services portal for the Embassy of the Federal Republic of Somalia in Kampala, Uganda.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

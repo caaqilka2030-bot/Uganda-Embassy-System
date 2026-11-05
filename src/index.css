@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-primary-navy: #0B2545;
+  --color-somali-blue: #4189DD;
+  --color-diplomatic-gold: #C9A227;
+  --color-laurel-green: #2E6B3F;
+  --color-ivory: #F8F6F0;
+  --color-slate-gray: #5B6770;
+  --color-alert-red: #B3261E;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+  }
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Print styles for official receipts, appointment slips & certificates */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}

@@ -1,0 +1,183 @@
+export const translations = {
+  en: {
+    // Navigation
+    portalTitle: 'Somali Embassy Online Services Portal',
+    portalSubtitle: 'Embassy of the Federal Republic of Somalia | Kampala, Uganda',
+    home: 'Home',
+    services: 'Services',
+    fees: 'Fees & Rates',
+    track: 'Track Application',
+    applyNow: 'Apply Online',
+    staffLogin: 'Consular Portal (Staff)',
+    citizenLogin: 'Citizen Portal',
+    logout: 'Log Out',
+    backOffice: 'Back Office',
+
+    // Hero
+    heroHeadline: 'Apply Online. Pay Securely. Visit Once.',
+    heroSubhead: 'The official digital consular portal for Somali citizens and visitors in Uganda. Submit applications, upload verified documents, and book biometrics at Nakasero, Kampala.',
+    heroTrackBtn: 'Track Existing Application',
+    heroApplyBtn: 'Start New Application',
+
+    // Trust & Workflow
+    howItWorks: 'How It Works',
+    howItWorksSubtitle: 'Four simple steps to complete your consular requirements with minimum embassy transit time.',
+    step1Title: '1. Choose Service',
+    step1Desc: 'Select passport renewal, NIRA ID, legal wakaalad, or consular certificates.',
+    step2Title: '2. Fill Form & Documents',
+    step2Desc: 'Complete the standardized questionnaire and upload required proof documents.',
+    step3Title: '3. Pay Consular Fee',
+    step3Desc: 'Pay securely via MTN Mobile Money, Airtel Money, Visa/Mastercard, or Bank.',
+    step4Title: '4. Book Appointment & Collect',
+    step4Desc: 'Reserve your time slot for biometrics and pick up your stamped legal document.',
+
+    // Services section
+    servicesHeader: 'Consular & Diplomatic Services',
+    servicesSubtitle: 'Authorized citizen and visa services processed directly by the Embassy in Kampala.',
+    viewRequirements: 'View Requirements & Apply',
+    feeToBeConfirmed: 'Fee to be confirmed',
+    processingTime: 'Processing Time',
+
+    // Statuses
+    status_draft: 'Draft',
+    status_submitted: 'Submitted',
+    status_payment_pending: 'Payment Pending',
+    status_payment_verified: 'Payment Confirmed',
+    status_under_review: 'Under Consular Review',
+    status_more_info_needed: 'Additional Documents Required',
+    status_approved: 'Approved',
+    status_printed: 'Document Printed',
+    status_ready_for_collection: 'Ready for Collection',
+    status_collected: 'Collected by Citizen',
+    status_rejected: 'Application Rejected',
+    status_cancelled: 'Cancelled',
+
+    // Payment statuses
+    pay_unpaid: 'Unpaid',
+    pay_awaiting_verification: 'Awaiting Bank Verification',
+    pay_paid: 'Paid & Verified',
+    pay_failed: 'Payment Failed',
+    pay_refunded: 'Refunded',
+
+    // Common labels
+    referenceNumber: 'Reference Number',
+    passportOrId: 'Passport or National ID No.',
+    fullName: 'Full Name (as in passport)',
+    motherName: "Mother's Full Name",
+    dob: 'Date of Birth',
+    placeOfBirth: 'Place of Birth (Town/Region)',
+    gender: 'Gender',
+    maritalStatus: 'Marital Status',
+    nationality: 'Nationality',
+    clan: 'Clan / Community (Optional)',
+    phone: 'WhatsApp / Phone Number',
+    email: 'Email Address',
+    addressInUganda: 'Current Physical Address in Uganda',
+    occupation: 'Occupation / Field',
+    emergencyContact: 'Emergency Contact',
+    saveDraft: 'Save Application Draft',
+    next: 'Continue to Next Step',
+    previous: 'Previous Step',
+    submit: 'Submit Application',
+    downloadReceipt: 'Download Official Receipt',
+    bookAppointment: 'Select Biometrics Slot',
+
+    // Footer
+    embassyAddress: 'Plot 46, Nakasero Road, P.O. Box 2736, Kampala, Uganda',
+    workingHoursNotice: 'Consular Hours: Monday – Friday: 9:00 AM – 3:00 PM (Public Holidays Closed)',
+    emergencyHotline: 'Consular Hotline: +256 414 256 098 / +256 772 120 450',
+    emailSupport: 'consular@somaliembassy.ug',
+    copyright: '© 2026 Embassy of the Federal Republic of Somalia in Kampala, Uganda. All Rights Reserved.',
+  },
+
+  so: {
+    // Navigation
+    portalTitle: 'Albaabka Adeegyada Qunsuliyadda Safaaradda Soomaaliya',
+    portalSubtitle: 'Safaaradda Jamhuuriyadda Federaalka Soomaaliya | Kampala, Uganda',
+    home: 'Bogga Hore',
+    services: 'Adeegyada',
+    fees: 'Lacagaha & Qiimaha',
+    track: 'La Soco Codsiga',
+    applyNow: 'Ka Codso Halkan',
+    staffLogin: 'Gelitaanka Shaqaalaha',
+    citizenLogin: 'Albaabka Muwaadinka',
+    logout: 'Ka Bax',
+    backOffice: 'Xafiiska Dambe',
+
+    // Hero
+    heroHeadline: 'Ka Codso Online. Si Nabad Ah U Bixi. Hal Mar Soo Booqo.',
+    heroSubhead: 'Albaabka rasmiga ah ee adeegyada qunsuliyadda ee muwaadiniinta Soomaaliyeed iyo dadka booqanaya Uganda. Buuxi foomamka, soo rar dukumeentiyada, oo ballan ka qabso Nakasero, Kampala.',
+    heroTrackBtn: 'Raad-raac Codsigaaga',
+    heroApplyBtn: 'Bilow Codsi Cusub',
+
+    // Trust & Workflow
+    howItWorks: 'Sida Uu U Shaqeeyo',
+    howItWorksSubtitle: 'Afar tallaabo oo fudud oo aad ku dhammaystiri karto adeegyada adiga oo aan wakhti badan ku lumin safaaradda.',
+    step1Title: '1. Dooro Adeegga',
+    step1Desc: 'Dooro Baasaboor, Kaarka NIRA, Wakaalad, ama Shahaadooyinka kala duwan.',
+    step2Title: '2. Buuxi Foomka & Dukumeentiyada',
+    step2Desc: 'Geli xogtaada saxda ah oo soo geli sawirrada dukumeentiyada asalka ah.',
+    step3Title: '3. Bixi Lacagta Adeegga',
+    step3Desc: 'Ku bixi MTN Mobile Money, Airtel Money, Kaarka Bangiga, ama Xawaalad.',
+    step4Title: '4. Qabso Ballan & Qaadasho',
+    step4Desc: 'Dooro saacadda aad safaaradda imaaneyso si faraha laguu qaado una qaadato dukumeentigaaga.',
+
+    // Services section
+    servicesHeader: 'Adeegyada Qunsuliyadda & Diblomaasiyadda',
+    servicesSubtitle: 'Adeegyada rasmiga ah ee ay bixiso Safaaradda Soomaaliya ee Kampala.',
+    viewRequirements: 'Eeg Shuruudaha & Codso',
+    feeToBeConfirmed: 'Lacagta dib ayaa laga xaqiijinayaa',
+    processingTime: 'Muddada Qaadanayo',
+
+    // Statuses
+    status_draft: 'Qabyo',
+    status_submitted: 'Waa La Gudbiyay',
+    status_payment_pending: 'Bixinta Lacagta ayaa dhiman',
+    status_payment_verified: 'Lacagta waa la xaqiijiyay',
+    status_under_review: 'Dib u eegista Qunsulka',
+    status_more_info_needed: 'Dukumeenti dheeraad ah ayaa loo baahan yahay',
+    status_approved: 'Waa La Ansixiyay',
+    status_printed: 'Dukumeentiga waa la daabacay',
+    status_ready_for_collection: 'Diyaar u ah Qaadashada',
+    status_collected: 'Muwaadinku wuu qaatay',
+    status_rejected: 'Codsiga waa la diiday',
+    status_cancelled: 'Waa la joojiyay',
+
+    // Payment statuses
+    pay_unpaid: 'Lama Bixin',
+    pay_awaiting_verification: 'Xaqiijinta Bangiga ayaa socota',
+    pay_paid: 'Waa La Bixiyay',
+    pay_failed: 'Bixintu Way Fashilantay',
+    pay_refunded: 'Lacagta waa la celiyay',
+
+    // Common labels
+    referenceNumber: 'Lambarka Tixraaca',
+    passportOrId: 'Lambarka Baasaboorka ama Kaarka',
+    fullName: 'Magaca Saddexan (sida baasaboorka ku qoran)',
+    motherName: 'Magaca Hooyada oo buuxa',
+    dob: 'Taariikhda Dhalashada',
+    placeOfBirth: 'Goobta Dhalashada (Magaalada/Gobolka)',
+    gender: 'Jinsiga',
+    maritalStatus: 'Xaaladda Qoyska',
+    nationality: 'Dhalashada',
+    clan: 'Beesha / Qabiilka (Ikhtiyaari)',
+    phone: 'Lambarka WhatsApp / Taleefanka',
+    email: 'Cinwaanka Email-ka',
+    addressInUganda: 'Cinwaanka aad hadda kaga nooshahay Uganda',
+    occupation: 'Shaqada ama Xirfadda',
+    emergencyContact: 'Qofka lala xiriirayo xilliga degdegga ah',
+    saveDraft: 'Keydi Codsiga',
+    next: 'U Gudub Tallaabada Xigta',
+    previous: 'Dib U Noqo',
+    submit: 'Gudbi Codsiga',
+    downloadReceipt: 'Degso Rasiidka Rasmiga ah',
+    bookAppointment: 'Dooro Ballanta Faraha',
+
+    // Footer
+    embassyAddress: 'Plot 46, Nakasero Road, P.O. Box 2736, Kampala, Uganda',
+    workingHoursNotice: 'Saacadaha Shaqada: Isniin – Jimce: 9:00 Subaxnimo – 3:00 Galabnimo',
+    emergencyHotline: 'Khadka Degdegga: +256 414 256 098 / +256 772 120 450',
+    emailSupport: 'consular@somaliembassy.ug',
+    copyright: '© 2026 Safaaradda Jamhuuriyadda Federaalka Soomaaliya ee Kampala, Uganda. Dhammaan xuquuqdu way dhowran tahay.',
+  },
+};
